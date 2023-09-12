@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Centered Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color:#f4f4f4;
+        }
+        h2{
+           font-family:cursive;
+           align-items:center;
+           justify-content:center;
+           padding-left:150px;
+           font-weight:bolder;
+           font-size:32px;
+        }
+
+        .form-container {
+            width: 400px;
+            /* height:550px; */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fefefe;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 380px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin:6px;
+        }
+
+        .form-group button {
+            background-color: #61bdfa;
+            color: #ffff;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width:100%;
+            padding-left:10px;
+            font-weight:bold;
+            font-size:15px;
+            
+        }
+        .advetise-container{
+           background-color:#229b5f;
+           color:white;
+           font-weight:bold;
+           width:110px;
+           padding:8px;
+     border-top-right-radius:16px;
+     border-bottom-left-radius:6px;
+     border-top-right-radius:16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>instagram</h2>
+        <form>
+            <div class="form-group">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Phone Number, ussername or email">
+            </div>
+            <div class="form-group">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <button type="submit">Log in</button>
+            </div>
+            <div class="advetise-container">
+               Limited Offer 
+               
+            </div>
+        </form>
+    </div>
+</body>
+</html>
